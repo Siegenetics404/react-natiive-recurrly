@@ -78,8 +78,16 @@
         @apply ml-4 text-2xl font-sans-bold text-primary;
     }
 
+    /*.home-add-icon {*/
+    /*    @apply size-12;*/
+    /*}*/
+
+    .home-add-btn {
+        @apply size-12 rounded-full border-2 border-primary items-center justify-center;
+    }
+
     .home-add-icon {
-        @apply size-12;
+        @apply size-6;
     }
 
     .home-balance-card {
